@@ -3,4 +3,4 @@ spark-submit \
         --deploy-mode cluster \
         --num-executors 3 \
         doli6716A2.py \
-        --output $1
+       # --output $1
