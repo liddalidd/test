@@ -179,7 +179,7 @@ def getOutputFile(res1, res2, res3):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--output", help="the output path") 
+    parser.add_argument("--output", help="the output path",default='res') 
     args = parser.parse_args()
     output_path = args.output 
 
